@@ -1,0 +1,47 @@
+body {
+    background-color: #f2e8e8;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+}
+.person {
+    position: absolute;
+    bottom: 30px;
+    gap: 15px;
+    display: flex;
+}
+.letter {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    right: 15px;
+    transition: opacity 0.5s ease-in-out;
+}
+.house {
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    width: 300px;
+    height: 200px;
+}
+#horizintal_line {
+    position: absolute;
+    left: 0;
+    width: 75%;
+}
+img{
+    width: 120px;
+    height: 200px;
+}
+#js_que {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    color: rgb(232, 135, 151);
+}

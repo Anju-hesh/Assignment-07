@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: navajowhite;
+    border: 2px solid #000;
+    padding: 25px;
+    background-color: wheat;
+}
+
+div > h3 > a{
+    text-decoration: none;
+    color: rgb(104, 104, 227);
+    font-size: 25px;
+}
