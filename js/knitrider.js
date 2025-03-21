@@ -1,6 +1,7 @@
 let boxes = document.querySelectorAll('.box'); 
 let btnStart = document.getElementById('start-btn'); 
-let btnStop = document.getElementById('stop-btn');  
+let btnStop = document.getElementById('stop-btn');
+let music = document.getElementById("audio_music");  
 
 let position = 0; 
 let isForward = true; 
@@ -44,13 +45,15 @@ function updateColors() {
 }  
 
 function start() { 
-    // if (!intervalId) {    
-        intervalId = setInterval(updateColors, 200); 
+    // if (!intervalId) {  
+        intervalId = setInterval(updateColors, 100); 
+        music.play();
     // } 
 }  
 
 function end() { 
-    clearInterval(intervalId); 
+    clearInterval(intervalId);
+    music.pause();
     intervalId = null; 
 }  
 

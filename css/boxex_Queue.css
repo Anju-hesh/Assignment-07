@@ -59,3 +59,44 @@ h2{
     transform: translate(-50% , -50%);
     width: 60%;
 }
+
+
+button {
+    padding: 13px 40px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s, transform 0.3s, border 0.3s;
+    margin-top: 100px;
+    /* border-radius: 100px; */
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-1 {
+    margin-right: 10px;
+  }
+  .btn-2 {
+    margin-left: 10px;
+  }
+  .start-btn {
+    background-color: #4caf50;
+    border-radius: 25px 0px 0px 25px;
+  }
+  .stop-btn {
+    background-color: #f44336;
+    border-radius: 0px 25px 25px 0px;
+  }
+  .start-btn:hover {
+    background-color: #117616;
+    transform: scale(1.1);
+    border: 1px solid #00ff0d;
+  }
+  .stop-btn:hover {
+    background-color: #b71c1c;
+    transform: scale(1.1);
+    border: 1px solid #ff0000;
+  }
